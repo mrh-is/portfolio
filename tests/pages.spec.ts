@@ -166,9 +166,7 @@ test.describe("Footer", () => {
     test(`footer view-source link is present on ${url}`, async ({ page }) => {
       await page.goto(url, { waitUntil: "networkidle" });
       await expect(
-        page.locator(
-          'footer a[href="https://github.com/mrh-is/mrh-is.github.io"]',
-        ),
+        page.locator('footer a[href="https://github.com/mrh-is/portfolio"]'),
       ).toBeVisible();
     });
   }

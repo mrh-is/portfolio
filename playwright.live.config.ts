@@ -10,7 +10,7 @@ export default defineConfig({
   workers: 2,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
-    baseURL: process.env.LIVE_URL ?? "https://mrh-is-github-io.pages.dev",
+    baseURL: process.env.LIVE_URL ?? "https://mrh-is.pages.dev",
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
