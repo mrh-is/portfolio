@@ -1,5 +1,5 @@
 {
-  "name": "mrh-is.github.io",
+  "name": "mrh-is",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,7 +15,7 @@
     "test:browsers": "playwright install chromium webkit",
     "test:unit": "vitest run",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-10-30 --proxy 5173 -- pnpm dev",
-    "pages:deploy": "pnpm build && wrangler pages deploy .svelte-kit/cloudflare",
+    "pages:deploy": "pnpm build && wrangler pages deploy .svelte-kit/cloudflare --project-name mrh-is",
     "prepare": "husky"
   },
   "devDependencies": {

@@ -26,8 +26,8 @@
       </div>
     </div>
     <p class="footer-sub">
-      designed &amp; built by me · <a
-        href="https://github.com/mrh-is/mrh-is.github.io">view source</a
+      designed &amp; built by me · <a href="https://github.com/mrh-is/portfolio"
+        >view source</a
       >
     </p>
   </div>
